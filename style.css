@@ -1,5 +1,7 @@
 /* AJOUTS PERSONNELS */
-
+    body {
+        line-height: 40px
+    }
     .opacity {
         opacity: 0.8;
     }
@@ -25,6 +27,26 @@
     }
     .image-acceuil {
         width: 100;
+    }
+    .keywords {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    a {
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFF;
+    }
+    .a-nav {
+        color: black!important;
+    }
+    .orange {
+        color: #C14F1C;
+    }
+    .padding-bot-30 {
+        padding-bottom: 30px;
     }
 /* FIN DES AJOUTS*/
 
@@ -465,7 +487,9 @@ button {
 
 .icon-rs {
     font-size: 50px!important;
-    color: rgba(255, 255, 255, .6);
+    color: #FFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .icon-rs:hover {
@@ -510,7 +534,7 @@ button {
     }
 
 .form-control:hover {
-    border-bottom-color :#F3976C
+    border-bottom-color :#C14F1C;
 }
 
 .scrollToTop {
@@ -650,8 +674,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn{
     font-family: "helvetica";
     font-weight: 400;
     color: black!important;
@@ -774,24 +797,24 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C14F1C;
 }
 
 .tc-black {
-    color: #000000!important;
+    color: black!important;
 }
 .tc-white {
     color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #C14F1C;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #C14F1C!important;
+    color: black!important;
 }
 
 .ltc-white {
