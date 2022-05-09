@@ -858,6 +858,9 @@ h4 {
     .navbar .nav {
         margin-right: 0px;
     }
+    .lightbox-caption {
+        left: 9px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1062,6 +1065,17 @@ h4 {
     }
     .form-control {
         margin-left: 0px;
+    }
+    .lightbox-caption {
+        left: 3px;
+        bottom: -10px;
+        font-size: 16px;
+    }
+    .hero-bloc-text {
+        font-size: 37px;
+    }
+    .mg-md {
+        font-size: 25px
     }
 
 }
