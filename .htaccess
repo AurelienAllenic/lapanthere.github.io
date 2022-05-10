@@ -6,7 +6,7 @@
 •	<FilesMatch "\.(js)$">
 •	Header set Cache-Control "max-age=2592000, private"
 •	</FilesMatch>
-•	<filesMatch "\.(html|htm)$">
+•	<filesMatch "\.(html|htm|webp|css|js)$">
 •	Header set Cache-Control "max-age=7200, public"
 •	</filesMatch>
 •	# END Cache-Control Headers
