@@ -13,7 +13,7 @@
 •	# BEGIN Expires Headers
 •	<IfModule mod_expires.c>
 •	ExpiresActive On
-•	ExpiresByType image/png "access plus 1 week"
+•	ExpiresByType image/webp "access plus 1 week"
 •	ExpiresByType text/css "access plus 1 week"
 •	ExpiresByType text/x-javascript "access plus 1 week"
 •	ExpiresByType application/x-shockwave-flash "access plus 1 week"
