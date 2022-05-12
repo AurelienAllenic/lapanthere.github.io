@@ -1,7 +1,7 @@
 •	# BEGIN Cache-Control Headers
 •	<IfModule mod_headers.c>
 •	<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|webp)$">
-•	Header set Cache-Control "max-age=2592000, public"
+•	Cache-Control: max-age=31536000
 •	</FilesMatch>
 •	<FilesMatch "\.(js)$">
 •	Header set Cache-Control "max-age=2592000, private"
