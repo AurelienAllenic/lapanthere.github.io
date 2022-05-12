@@ -368,6 +368,13 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .page-container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .logo-panthere{
+        width: 450px;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
